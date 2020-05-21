@@ -1,0 +1,14 @@
+apiVersion: v2
+publisher: jebbs
+name: plantuml
+version: 2.13.11
+type: VS Code extension
+displayName: UML
+title: aaaa
+description: aaaa
+icon: relative:image/resources/www.eclipse.org/che/images/logo-eclipseche.svg
+repository: aaaa
+category: Language
+spec:
+  extensions:
+    - https://raw.githubusercontent.com/gorshkov-leonid/trash/master/jebbs.plantuml-2.13.11.vsix
