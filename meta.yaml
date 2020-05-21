@@ -10,5 +10,9 @@ icon: relative:image/resources/www.eclipse.org/che/images/logo-eclipseche.svg
 repository: https://github.com/bla
 category: Language
 spec:
+  containers:
+    - image: "quay.io/eclipse/che-sidecar-java:11-f76ca45"
+      name: plantuml
+      memoryLimit: "256Mi"
   extensions:
     - https://raw.githubusercontent.com/gorshkov-leonid/trash/master/jebbs.plantuml-2.13.11.vsix
