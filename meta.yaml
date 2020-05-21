@@ -3,11 +3,12 @@ publisher: jebbs
 name: plantuml
 version: 2.13.11
 type: VS Code extension
-displayName: UML
-title: aaaa
-description: aaaa
+displayName: YANG
+title: Yang VS Code Extension (see https://github.com/theia-ide/yang-vscode)
+description: Yang editor support for VS Code, based on YANG-LSP (see https://github.com/theia-ide/yang-lsp).
+# copied from https://www.eclipse.org/che/images/logo-eclipseche.svg
 icon: relative:image/resources/www.eclipse.org/che/images/logo-eclipseche.svg
-repository: aaaa
+repository: https://github.com/theia-ide/yang-vscode
 category: Language
 spec:
   extensions:
